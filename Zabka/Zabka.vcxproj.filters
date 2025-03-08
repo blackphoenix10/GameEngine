@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Resources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Source">
+      <UniqueIdentifier>{24bf50d7-630f-4b95-89ab-66d0755d9cd8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Source\Public">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Source\pch">
+      <UniqueIdentifier>{756c78ff-95e3-47b8-8e7e-585c38ae7465}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform">
+      <UniqueIdentifier>{f3a475c1-bc3f-4a3d-8d35-5d76d2012841}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform\Windows">
+      <UniqueIdentifier>{b3109d97-6bfb-4469-9284-11715c6f1762}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Platform\Windows\WIN32">
+      <UniqueIdentifier>{358f50d7-8a92-4e04-b441-ed21ef77a268}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform">
+      <UniqueIdentifier>{d1413347-f748-48db-bbf6-3f7e05c4dc7d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform\Windows">
+      <UniqueIdentifier>{a9b505ab-dfe6-4da5-b61c-e450ebb726e5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Platform\Windows\WIN32">
+      <UniqueIdentifier>{bb11faf9-cd56-4704-bdec-326a99228f21}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Zabka.cpp">
+      <Filter>Source\pch</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\WIN32\IApplication.cpp">
+      <Filter>Source\Private\Platform\Windows\WIN32</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Zabka.h">
+      <Filter>Source\pch</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\WIN32\IApplication.h">
+      <Filter>Source\Public\Platform\Windows\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\WIN32\WinEntry.h">
+      <Filter>Source\Public\Platform\Windows\WIN32</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
