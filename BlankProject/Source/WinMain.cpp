@@ -62,6 +62,7 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 #pragma endregion
 /* --------------------------------------------------*/
 
+
 /* --------------------------------------------------*/
 /*	Functions                                        */
 /* --------------------------------------------------*/
