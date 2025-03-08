@@ -8,3 +8,5 @@
 #define		HInstance() GetModuleHandle(NULL)
 
 #include "Zabka.h"
+
+#include "Common/Logger.h"

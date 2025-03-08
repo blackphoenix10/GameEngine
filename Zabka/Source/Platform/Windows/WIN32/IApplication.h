@@ -16,6 +16,10 @@ public:
 
 
 public:
+
+	// Called to Setup Per Game Settings
+	virtual VOID SetupPerGameSettings() = 0;
+
 	// Called to Initialize the Application
 	virtual VOID Initialize() = 0;
 

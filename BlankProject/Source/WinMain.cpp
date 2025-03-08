@@ -110,20 +110,20 @@ VOID InitializeWindow()
 	ShowWindow(hWnd, SW_SHOW);
 }
 
-VOID MessageLoop() 
-{
-	MSG msg = { 0 };
-
-	while (msg.message != WM_QUIT)
-	{
-		if (PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
-		{
-			TranslateMessage(&msg);
-			DispatchMessage(&msg);
-		}
-	}
-
-}
+//VOID MessageLoop() 
+//{
+//	MSG msg = { 0 };
+//
+//	while (msg.message != WM_QUIT)
+//	{
+//		if (PeekMessage(&msg, 0, 0, 0, PM_REMOVE))
+//		{
+//			TranslateMessage(&msg);
+//			DispatchMessage(&msg);
+//		}
+//	}
+//
+//}
 
 #pragma endregion
 /* --------------------------------------------------*/

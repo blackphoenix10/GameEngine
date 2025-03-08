@@ -37,6 +37,18 @@
     <Filter Include="Source\Public\Platform\Windows\WIN32">
       <UniqueIdentifier>{bb11faf9-cd56-4704-bdec-326a99228f21}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Private\Common">
+      <UniqueIdentifier>{d4578b71-5f4c-4c0d-b26d-504aac85f0f7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Common">
+      <UniqueIdentifier>{6a4cf13f-b184-4377-85b5-f2706a03c902}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Public\Core">
+      <UniqueIdentifier>{cec937c9-b33e-47da-b876-d2bdcdaf7a70}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source\Private\Core">
+      <UniqueIdentifier>{04d04fd4-29eb-49fb-a609-daf51f966798}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Zabka.cpp">
@@ -44,6 +56,15 @@
     </ClCompile>
     <ClCompile Include="Source\Platform\Windows\WIN32\IApplication.cpp">
       <Filter>Source\Private\Platform\Windows\WIN32</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Logger.cpp">
+      <Filter>Source\Private\Common</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Core\PerGameSettings.cpp">
+      <Filter>Source\Private\Core</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Common\Time.cpp">
+      <Filter>Source\Private\Common</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -55,6 +76,15 @@
     </ClInclude>
     <ClInclude Include="Source\Platform\Windows\WIN32\WinEntry.h">
       <Filter>Source\Public\Platform\Windows\WIN32</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Logger.h">
+      <Filter>Source\Public\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Core\PerGameSettings.h">
+      <Filter>Source\Public\Core</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Common\Time.h">
+      <Filter>Source\Public\Common</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
