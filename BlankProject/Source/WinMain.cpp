@@ -1,7 +1,7 @@
 #include "pch.h"
 
 /* --------------------------------------------------*/
-/*	Global Variables								 */
+/*	Global Variables                                 */
 /* --------------------------------------------------*/
 #pragma region GlobalVariables
 
@@ -16,7 +16,7 @@
 
 
 /* --------------------------------------------------*/
-/*	Pre-Declarations								 */
+/*	Pre-Declarations                                 */
 /* --------------------------------------------------*/
 #pragma region Pre-Declarations
 
@@ -31,7 +31,7 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 
 
 /* --------------------------------------------------*/
-/*	Operations										 */
+/*	Operations                                       */
 /* --------------------------------------------------*/
 #pragma region Operations
 
@@ -63,7 +63,7 @@ LRESULT CALLBACK WindowProcess(HWND hWnd, UINT message, WPARAM wparam, LPARAM lp
 /* --------------------------------------------------*/
 
 /* --------------------------------------------------*/
-/*	Functions										 */
+/*	Functions                                        */
 /* --------------------------------------------------*/
 #pragma region Functions
 
