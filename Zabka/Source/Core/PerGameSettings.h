@@ -19,6 +19,7 @@ private:
 	WCHAR m_ShortName[MAX_NAME_STRING];
 	HICON m_MainIcon;
 	WCHAR m_BootTime[MAX_NAME_STRING];
+	WCHAR m_SplashUrl[MAX_NAME_STRING];
 
 public:
 
@@ -33,5 +34,7 @@ public:
 
 	static WCHAR* BootTime() { return inst->m_BootTime; }
 
+	static WCHAR* SplashUrl() { return inst->m_SplashUrl; }
+	static VOID SetSplashUrl(UINT id) { LoadString(HInstance(), id, inst->m_SplashUrl, MAX_NAME_STRING); }
 
 };

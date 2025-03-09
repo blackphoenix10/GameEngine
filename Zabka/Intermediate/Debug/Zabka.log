@@ -1,7 +1,2 @@
-﻿  Logger.cpp
-  Time.cpp
-  PerGameSettings.cpp
-  IApplication.cpp
-  Zabka.cpp
-     Creating library D:\GameEngine\GameEngine\\Build\Zabka\Debug\Zabka.lib and object D:\GameEngine\GameEngine\\Build\Zabka\Debug\Zabka.exp
+﻿  Win32Utils.cpp
   Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Zabka\Debug\Zabka.dll

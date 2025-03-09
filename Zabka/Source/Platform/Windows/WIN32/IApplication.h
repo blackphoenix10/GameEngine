@@ -1,31 +1,37 @@
 #pragma once
 
-#define ENTRYAPP(x) IApplication* EntryApplication() {return new x; }
+#define ENTRYAPP(x) Win32::IApplication* EntryApplication() {return new x; }
 
-class ZABKA_API IApplication {
+namespace Win32 {
 
-	// Application
+	class ZABKA_API IApplication {
 
-public:
+		// Application
 
-	// Constructor
-	IApplication();
+	public:
 
-	// Deconstructor
-	virtual ~IApplication() {};
+		// Constructor
+		IApplication();
+
+		// Deconstructor
+		virtual ~IApplication() {};
 
 
-public:
+	public:
 
-	// Called to Setup Per Game Settings
-	virtual VOID SetupPerGameSettings() = 0;
+		// Called to Setup Per Game Settings
+		virtual VOID SetupPerGameSettings() = 0;
 
-	// Called to Initialize the Application
-	virtual VOID Initialize() = 0;
+		virtual VOID PreInitialize() = 0;
 
-	// Game loop
-	virtual VOID Update() = 0;
+		// Called to Initialize the Application
+		virtual VOID Initialize() = 0;
 
-};
+		// Game loop
+		virtual VOID Update() = 0;
 
-IApplication* EntryApplication();
+	};
+
+	IApplication* EntryApplication();
+
+}

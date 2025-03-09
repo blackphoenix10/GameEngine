@@ -2,11 +2,9 @@
 
 #include <windows.h>
 
+#include <string>
+
 #include "../resource.h"
 
-#define		MAX_NAME_STRING 256
-#define		HInstance() GetModuleHandle(NULL)
 
-#include "Zabka.h"
-
-#include "Common/Logger.h"
+#include "Core/CoreMinimal.h"
