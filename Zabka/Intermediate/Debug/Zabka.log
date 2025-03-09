@@ -1,2 +1,13 @@
-﻿  Win32Utils.cpp
-  Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Zabka\Debug\Zabka.dll
+﻿  Simulation.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/Simulation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/Simulation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Engine\Simulation.cpp(41,3): warning C4060: switch statement contains no 'case' or 'default' labels
+  Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Debug\Zabka.dll

@@ -6,13 +6,22 @@ namespace Win32 {
 	class ZABKA_API Window : public Win32::SubObject {
 
 	public:
-		Window(std::wstring className, std::wstring classTitle, HICON icon, INT width, INT height);
+		Window(std::wstring title, HICON icon, WindowType type = RESIZABLE);
 		~Window();
 
 		virtual VOID Initialize() override;
 
 	protected:
-		INT			m_Height;
-		INT			m_Width;
+
+
+		SIZE		m_Size;
+		WindowType	m_Type;
+
+	public:
+		SIZE		Size() { return m_Size; }
+		
+	public:
+		VOID		Size(SIZE size) { m_Size = size; }
+		VOID		Size(INT cx, INT cy) { m_Size.cx = cx; m_Size.cy = cy; }
 	};
 }

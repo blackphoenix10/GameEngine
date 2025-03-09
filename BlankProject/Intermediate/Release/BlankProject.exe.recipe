@@ -2,7 +2,7 @@
 <Project>
   <ProjectOutputs>
     <ProjectOutput>
-      <FullPath>D:\GameEngine\GameEngine\Build\BlankProject\Release\BlankProject.exe</FullPath>
+      <FullPath>D:\GameEngine\GameEngine\Build\Release\BlankProject.exe</FullPath>
     </ProjectOutput>
   </ProjectOutputs>
   <ContentFiles />

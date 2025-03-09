@@ -1,0 +1,172 @@
+﻿  CmdLineArgs.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/CmdLineArgs.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/CmdLineArgs.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Logger.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/Logger.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/Logger.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Time.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/Time.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Common/Time.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Core.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/Core.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/Core.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  CoreDefinitions.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/CoreDefinitions.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/CoreDefinitions.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  CoreMinimal.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/CoreMinimal.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/CoreMinimal.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  PerGameSettings.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/PerGameSettings.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Core/PerGameSettings.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  SplashScreen.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/SplashScreen.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/SplashScreen.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Engine\SplashScreen.cpp(65,67): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameEngine\GameEngine\Zabka\Source\Engine\SplashScreen.cpp(70,70): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+D:\GameEngine\GameEngine\Zabka\Source\Engine\SplashScreen.cpp(51,12): warning C4101: 'hmemdc': unreferenced local variable
+D:\GameEngine\GameEngine\Zabka\Source\Engine\SplashScreen.cpp(50,11): warning C4101: 'hbitmap': unreferenced local variable
+  ZEngine.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/ZEngine.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/ZEngine.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Simulation.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/Simulation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Engine/Simulation.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Engine\Simulation.cpp(38,2): warning C4060: switch statement contains no 'case' or 'default' labels
+  IApplication.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/WIN32/IApplication.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/WIN32/IApplication.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  SubObject.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/SubObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/SubObject.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Win32Utils.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/Win32Utils.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/Win32Utils.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Window.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/Window.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Platform/Windows/Win32/Window.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+  Zabka.cpp
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Zabka.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
+  (compiling source file 'Source/Zabka.cpp')
+      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
+      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
+  
+     Creating library D:\GameEngine\GameEngine\\Build\Debug\Zabka.lib and object D:\GameEngine\GameEngine\\Build\Debug\Zabka.exp
+  Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Debug\Zabka.dll

@@ -27,6 +27,9 @@ namespace Win32 {
 		HWND				m_Handle;
 
 	public:
-		HWND GetHandle() { return m_Handle; }
+		HWND Handle() { return m_Handle; }
+
+	public:
+		VOID	Handle(HWND hwnd) { m_Handle = hwnd; }
 	};
 }
