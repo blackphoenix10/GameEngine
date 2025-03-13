@@ -1,7 +1,7 @@
 #pragma once
 
-#define DEFAULTWIDTH 1024
-#define DEFAULTHEIGHT 720
+constexpr auto DEFAULTWIDTH = 1024;
+constexpr auto DEFAULTHEIGHT = 720;
 
 namespace Win32 {
 
@@ -10,7 +10,8 @@ namespace Win32 {
 	enum WindowType : DWORD {
 		STATIC		=	WS_OVERLAPPED,
 		RESIZABLE	=	WS_SIZEBOX,
-		POPUP		=	WS_POPUP
+		POPUP		=	WS_POPUP,
+		CLOSABLE	=	WS_OVERLAPPEDWINDOW
 	};
 
 

@@ -15,11 +15,11 @@ public:
 
 private:
 
-	WCHAR m_GameName[MAX_NAME_STRING];
-	WCHAR m_ShortName[MAX_NAME_STRING];
-	HICON m_MainIcon;
-	WCHAR m_BootTime[MAX_NAME_STRING];
-	WCHAR m_SplashUrl[MAX_NAME_STRING];
+	WCHAR m_GameName[MAX_NAME_STRING] = L"";
+	WCHAR m_ShortName[MAX_NAME_STRING] = L"";
+	HICON m_MainIcon = HICON();
+	WCHAR m_BootTime[MAX_NAME_STRING] = L"";
+	WCHAR m_SplashUrl[MAX_NAME_STRING] = L"";
 
 public:
 

@@ -37,7 +37,9 @@ namespace Zabka {
 
 		switch (message)
 		{
-
+		case NULL:
+			
+		default: NULL;
 		}
 
 		return CommonMessageHandler(hwnd, message, wParam, lParam);

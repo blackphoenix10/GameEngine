@@ -3,7 +3,7 @@
 
 namespace Win32 {
 	
-	class ZABKA_API Window : public Win32::SubObject {
+	class Window : public Win32::SubObject {
 
 	public:
 		Window(std::wstring title, HICON icon, WindowType type = RESIZABLE);
@@ -18,7 +18,7 @@ namespace Win32 {
 		WindowType	m_Type;
 
 	public:
-		SIZE		Size() { return m_Size; }
+		SIZE		Size() const { return m_Size; }
 		
 	public:
 		VOID		Size(SIZE size) { m_Size = size; }

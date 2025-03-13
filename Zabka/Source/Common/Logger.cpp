@@ -45,7 +45,7 @@ VOID Logger::PrintLog(const WCHAR* fmt, ...)
 
 std::wstring Logger::LogDirectory()
 {
-	WCHAR Path[1024];
+	WCHAR Path[1024] = { '\0' };
 	WCHAR* AppDataLocal;
 	SHGetKnownFolderPath(FOLDERID_RoamingAppData, 0, nullptr, &AppDataLocal);
 	wcscpy_s(Path, AppDataLocal);
@@ -59,7 +59,7 @@ std::wstring Logger::LogDirectory()
 
 std::wstring Logger::LogFile() 
 {
-	WCHAR File[1024];
+	WCHAR File[1024] = { '\0' };
 	wcscpy_s(File, PerGameSettings::GameName());
 	wcscat_s(File, PerGameSettings::BootTime());
 	wcscat_s(File, L".log");
@@ -89,7 +89,7 @@ VOID Logger::PrintDebugSeperator()
 BOOL Logger::IsMTailRunning()
 {
 	bool exists = false;
-	PROCESSENTRY32 entry;
+	PROCESSENTRY32 entry = {};
 	entry.dwSize = sizeof(PROCESSENTRY32);
 
 	HANDLE snapshot = CreateToolhelp32Snapshot(TH32CS_SNAPPROCESS, NULL);

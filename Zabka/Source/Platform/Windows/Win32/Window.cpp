@@ -26,11 +26,11 @@ namespace Win32 {
 		int width = R.right - R.left;
 		int height = R.bottom - R.top;
 
-		m_Handle = CreateWindow(m_Class.c_str(), m_Title.c_str(),
-			m_Type, ((desktop.right / 2) - (Size().cx / 2)), ((desktop.bottom / 2) - (Size().cy / 2)), Size().cx, Size().cy, 0, 0, HInstance(), (void*)this);
-
-		ShowWindow(m_Handle, SW_SHOW);
-		UpdateWindow(m_Handle);
+		Handle(CreateWindow(Class().c_str(), Title().c_str(),
+			m_Type, ((desktop.right / 2) - (Size().cx / 2)), ((desktop.bottom / 2) - (Size().cy / 2)), Size().cx, Size().cy, 0, 0, HInstance(), (void*)this));
+		
+		ShowWindow(Handle(), SW_SHOW);
+		UpdateWindow(Handle());
 
 	}
 

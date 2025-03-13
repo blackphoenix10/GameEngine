@@ -4,15 +4,9 @@ namespace Engine {
 
 	ZEngine g_ZabkaEngine;
 
-	VOID SetMode(EngineMode mode)
-	{
-		g_ZabkaEngine.SetEngineMode(mode);
-	}
+	VOID SetMode(EngineMode mode){ g_ZabkaEngine.SetEngineMode(mode); }
 
-	EngineMode GetMode()
-	{
-		return g_ZabkaEngine.GetEngineMode();
-	}
+	EngineMode GetMode(){ return g_ZabkaEngine.GetEngineMode(); }
 
 	std::wstring ZABKA_API EngineModeToString()
 	{
@@ -38,16 +32,8 @@ ZEngine::ZEngine()
 #endif
 }
 
-ZEngine::~ZEngine()
-{
-}
+ZEngine::~ZEngine(){}
 
-EngineMode ZEngine::GetEngineMode() const
-{
-	return m_EngineMode;
-}
+EngineMode ZEngine::GetEngineMode() const{return m_EngineMode;}
 
-VOID ZEngine::SetEngineMode(EngineMode mode) 
-{
-	m_EngineMode = mode;
-}
+VOID ZEngine::SetEngineMode(EngineMode mode) {m_EngineMode = mode;}

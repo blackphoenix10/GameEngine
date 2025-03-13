@@ -7,7 +7,7 @@ namespace Win32 {
 
         BOOL AddBitmap(const WCHAR* szFileName, HDC hWinDC, INT x, INT y)
         {
-            BITMAP qBitmap;
+            BITMAP qBitmap = {};
             HDC hLocalDC = CreateCompatibleDC(hWinDC);
 
             HBITMAP hBitmap = (HBITMAP)LoadImage(NULL, szFileName, IMAGE_BITMAP, 0, 0, LR_LOADFROMFILE);

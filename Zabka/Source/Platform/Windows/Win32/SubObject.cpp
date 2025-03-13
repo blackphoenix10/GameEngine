@@ -4,7 +4,7 @@
 namespace Win32 {
 
 	SubObject::SubObject(std::wstring className, std::wstring classTitle, HICON icon)
-		: m_Class(className), m_Title(classTitle), m_hIcon(icon)
+		: m_Class(className), m_Title(classTitle), m_hIcon(icon), m_Handle(nullptr)
 	{
 	}
 
@@ -14,7 +14,7 @@ namespace Win32 {
 
 	VOID SubObject::RegisterNewClass()
 	{
-		WNDCLASSEX wcex;
+		WNDCLASSEX wcex = {};
 		wcex.cbSize = sizeof(WNDCLASSEX);
 		wcex.style = CS_HREDRAW | CS_VREDRAW;
 		wcex.cbClsExtra = 0;

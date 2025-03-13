@@ -1,16 +1,1 @@
-﻿  BlankProject.cpp
-D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(24,17): warning C4251: 'Win32::SubObject::m_Class': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
-  (compiling source file 'Source/BlankProject.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
-      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
-  
-D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.h(25,17): warning C4251: 'Win32::SubObject::m_Title': 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>' needs to have dll-interface to be used by clients of 'Win32::SubObject'
-  (compiling source file 'Source/BlankProject.cpp')
-      C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.42.34433\include\xstring(527,7):
-      see declaration of 'std::basic_string<wchar_t,std::char_traits<wchar_t>,std::allocator<wchar_t>>'
-  
-  Generating code
-  Previous IPDB not found, fall back to full compilation.
-  All 9 functions were compiled because no usable IPDB/IOBJ from previous compilation was found.
-  Finished generating code
-  BlankProject.vcxproj -> D:\GameEngine\GameEngine\Build\Release\BlankProject.exe
+﻿  BlankProject.vcxproj -> D:\GameEngine\GameEngine\Build\Release\BlankProject.exe

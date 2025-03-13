@@ -2,14 +2,14 @@
 
 namespace Zabka {
 
-	class ZABKA_API Simulation : public Win32::IApplication, public Win32::Window {
+	class Simulation : public Win32::IApplication, public Win32::Window {
 
 	public:
-		Simulation();
-		~Simulation();
+		ZABKA_API Simulation();
+		ZABKA_API ~Simulation();
 
-		virtual VOID PreInitialize() override;
+		virtual VOID ZABKA_API PreInitialize() override;
 
-		virtual LRESULT MessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) override;
+		virtual LRESULT ZABKA_API MessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) override;
 	};
 }
