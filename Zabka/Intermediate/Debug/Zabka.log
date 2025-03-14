@@ -1,17 +1,10 @@
-﻿  CmdLineArgs.cpp
-  Logger.cpp
-  Time.cpp
-  Core.cpp
-  CoreDefinitions.cpp
-  CoreMinimal.cpp
-  PerGameSettings.cpp
-  SplashScreen.cpp
-  ZEngine.cpp
-  Simulation.cpp
-  IApplication.cpp
-  SubObject.cpp
-  Win32Utils.cpp
-  Window.cpp
-  Zabka.cpp
-     Creating library D:\GameEngine\GameEngine\\Build\Debug\Zabka.lib and object D:\GameEngine\GameEngine\\Build\Debug\Zabka.exp
+﻿  Microsoft (R) Direct3D Shader Compiler 10.1
+  Copyright (C) 2013 Microsoft. All rights reserved.
+  
+  compilation object save succeeded; see D:\GameEngine\GameEngine\Zabka\Source\Shaders\Compiled\VertexShader.cso
+  Microsoft (R) Direct3D Shader Compiler 10.1
+  Copyright (C) 2013 Microsoft. All rights reserved.
+  
+  compilation object save succeeded; see D:\GameEngine\GameEngine\Zabka\Source\Shaders\Compiled\PixelShader.cso
+  compilation object save succeeded; see D:\GameEngine\GameEngine\Build\Debug\PixelShader.cso
   Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Debug\Zabka.dll

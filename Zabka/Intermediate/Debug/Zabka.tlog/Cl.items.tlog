@@ -8,6 +8,7 @@ D:\GameEngine\GameEngine\Zabka\Source\Core\PerGameSettings.cpp;D:\GameEngine\Gam
 D:\GameEngine\GameEngine\Zabka\Source\Engine\SplashScreen.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\SplashScreen.obj
 D:\GameEngine\GameEngine\Zabka\Source\Engine\ZEngine.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\ZEngine.obj
 D:\GameEngine\GameEngine\Zabka\Source\Engine\Simulation.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\Simulation.obj
+D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\DirectX12Renderer.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\DirectX12Renderer.obj
 D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\WIN32\IApplication.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\IApplication.obj
 D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\SubObject.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\SubObject.obj
 D:\GameEngine\GameEngine\Zabka\Source\Platform\Windows\Win32\Win32Utils.cpp;D:\GameEngine\GameEngine\Zabka\Intermediate\Debug\Win32Utils.obj

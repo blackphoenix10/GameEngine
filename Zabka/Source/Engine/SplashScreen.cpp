@@ -5,7 +5,7 @@
 
 namespace SplashScreen {
 
-	#define WM_OUTPUTMESSAGE (WM_USER + 0x0001)
+#define WM_OUTPUTMESSAGE (WM_USER + 0x0001)
 
 	SplashWindow* m_SplashWindow;
 
@@ -27,6 +27,7 @@ namespace SplashScreen {
 	}
 }
 
+
 SplashWindow::SplashWindow()
 	: Win32::Window(L"SplashScreen", NULL, Win32::WindowType::POPUP)
 {
@@ -41,3 +42,45 @@ SplashWindow::~SplashWindow()
 {
 }
 
+LRESULT ZABKA_API SplashWindow::MessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam)
+{
+
+	switch (message)
+	{
+	case WM_PAINT:
+	{
+		HBITMAP hbitmap;
+		HDC hdc, hmemdc;
+		PAINTSTRUCT ps;
+
+		hdc = BeginPaint(hwnd, &ps);
+
+		Win32::Utils::AddBitmap(PerGameSettings::SplashUrl(), hdc);
+
+		SetBkMode(hdc, TRANSPARENT);
+        SetTextColor(hdc, RGB(0, 100, 0));
+
+		if (Engine::GetMode() != Engine::EngineMode::RELEASE) {
+
+			std::wstring engineModeText = Engine::EngineModeToString() + L" Mode";
+			SetTextAlign(hdc, TA_RIGHT);
+			TextOut(hdc, Size().cx - 15, 15, engineModeText.c_str(), wcslen(engineModeText.c_str()));
+		}
+
+		SetTextAlign(hdc, TA_CENTER);
+
+		TextOut(hdc, Size().cx / 2, Size().cy - 30, m_outputMessage, wcslen(m_outputMessage));
+		EndPaint(hwnd, &ps);
+	}
+	break;
+	case WM_OUTPUTMESSAGE:
+	{
+		WCHAR* msg = (WCHAR*)wParam;
+		wcscpy_s(m_outputMessage, msg);
+		UpdateWindow(hwnd);
+		return 0;
+	}
+	}
+
+	return Window::CommonMessageHandler(hwnd, message, wParam, lParam);
+}

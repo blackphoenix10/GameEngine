@@ -6,10 +6,10 @@ namespace Win32 {
 	class Window : public Win32::SubObject {
 
 	public:
-		Window(std::wstring title, HICON icon, WindowType type = RESIZABLE);
+		ZABKA_API Window(std::wstring title, HICON icon, WindowType type = RESIZABLE);
 		~Window();
 
-		virtual VOID Initialize() override;
+		virtual VOID ZABKA_API Initialize() override;
 
 	protected:
 
@@ -18,10 +18,10 @@ namespace Win32 {
 		WindowType	m_Type;
 
 	public:
-		SIZE		Size() const { return m_Size; }
+		SIZE		ZABKA_API Size() const { return m_Size; }
 		
 	public:
-		VOID		Size(SIZE size) { m_Size = size; }
-		VOID		Size(INT cx, INT cy) { m_Size.cx = cx; m_Size.cy = cy; }
+		VOID		ZABKA_API Size(SIZE size) { m_Size = size; }
+		VOID		ZABKA_API Size(INT cx, INT cy) { m_Size.cx = cx; m_Size.cy = cy; }
 	};
 }

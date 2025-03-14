@@ -65,6 +65,9 @@
     <Filter Include="Source\Platform\Windows\Win32\Classes">
       <UniqueIdentifier>{ff5aa1a2-c7dd-4cb6-b42f-5a18be1295ab}</UniqueIdentifier>
     </Filter>
+    <Filter Include="Source\Shaders">
+      <UniqueIdentifier>{5dbfe105-21aa-4e70-8b2f-fede347e204d}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="Source\Zabka.cpp">
@@ -110,6 +113,9 @@
       <Filter>Source\Platform\Windows\Win32\Private</Filter>
     </ClCompile>
     <ClCompile Include="Source\Platform\Windows\Win32\Win32Utils.cpp">
+      <Filter>Source\Platform\Windows\Win32\Private</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Platform\Windows\Win32\DirectX12Renderer.cpp">
       <Filter>Source\Platform\Windows\Win32\Private</Filter>
     </ClCompile>
   </ItemGroup>
@@ -162,5 +168,19 @@
     <ClInclude Include="Source\Platform\Windows\Win32\Win32Utils.h">
       <Filter>Source\Platform\Windows\Win32\Public</Filter>
     </ClInclude>
+    <ClInclude Include="Source\Platform\Windows\Win32\DirectX12Renderer.h">
+      <Filter>Source\Platform\Windows\Win32\Classes</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <FxCompile Include="Source\Shaders\PixelShader.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
+    <FxCompile Include="Source\Shaders\VertexShader.hlsl">
+      <Filter>Source\Shaders</Filter>
+    </FxCompile>
   </ItemGroup>
 </Project>

@@ -15,7 +15,7 @@ namespace Win32 {
 		static			LRESULT CALLBACK	SetupMessageHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 		static			LRESULT				AssignMessageHandler(HWND hWnd, UINT msg, WPARAM wParam, LPARAM lParam);
 		virtual			LRESULT	ZABKA_API	CommonMessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam);
-		virtual			LRESULT				MessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) = 0;
+		virtual			LRESULT	ZABKA_API	MessageHandler(HWND hwnd, UINT message, WPARAM wParam, LPARAM lParam) = 0;
 		// Accessor methods for derived classes
 
 

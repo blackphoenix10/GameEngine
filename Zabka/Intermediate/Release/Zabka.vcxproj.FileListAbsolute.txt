@@ -1,0 +1,4 @@
+D:\GameEngine\GameEngine\Build\Release\D3D12\D3D12Core.dll
+D:\GameEngine\GameEngine\Build\Release\D3D12\D3D12Core.pdb
+D:\GameEngine\GameEngine\Build\Release\D3D12\D3D12SDKLayers.dll
+D:\GameEngine\GameEngine\Build\Release\D3D12\D3D12SDKLayers.pdb

@@ -20,6 +20,8 @@ INT CALLBACK WinMain(HINSTANCE hInstance, HINSTANCE hPrevInstance, LPSTR lpCmdLi
 
     EntryApp->Initialize();
 
+    EntryApp->Run();
+
     MSG msg = { 0 };
 
     while (msg.message != WM_QUIT)

@@ -18,29 +18,28 @@ Logger::~Logger()
 
 VOID Logger::PrintLog(const WCHAR* fmt, ...) 
 {
-	WCHAR buf[4096];
-	va_list args;
+    WCHAR buf[4096];
+    va_list args;
 
-	va_start(args, fmt);
-	vswprintf_s(buf, fmt, args);
-	va_end(args);
+    va_start(args, fmt);
+    vswprintf_s(buf, fmt, args);
+    va_end(args);
 
-	OutputDebugString(buf);
+    OutputDebugString(buf);
 
-	std::wfstream outfile;
-	
-	outfile.open(std::wstring(LogDirectory() + L"/" + LogFile()), std::ios_base::app);
+    std::wfstream outfile;
+    
+    outfile.open(std::wstring(LogDirectory() + L"/" + LogFile()), std::ios_base::app);
 
-	if (outfile.is_open()) {
-		std::wstring s = buf;
-		outfile << L"[" << Time::GetDateTimeString() << L"]  " << s;
-		outfile.close();
-		OutputDebugString(s.c_str());
-	}
-	else {
-		MessageBox(NULL, L"Unable to open log file...", L"Log Error", MB_OK);
-	}
-
+    if (outfile.is_open()) {
+        std::wstring s = buf;
+        outfile << L"[" << Time::GetDateTimeString() << L"]  " << s << L"\n";
+        outfile.close();
+        OutputDebugString((s + L"\n").c_str());
+    }
+    else {
+        MessageBox(NULL, L"Unable to open log file...", L"Log Error", MB_OK);
+    }
 }
 
 std::wstring Logger::LogDirectory()

@@ -1,6 +1,7 @@
 #include "Zabka.h"
 #include "Window.h"
 
+
 namespace Win32 {
 	Window::Window(std::wstring title, HICON icon, WindowType type)
 		: Win32::SubObject(title, title, icon), m_Type(type)
@@ -32,6 +33,6 @@ namespace Win32 {
 		ShowWindow(Handle(), SW_SHOW);
 		UpdateWindow(Handle());
 
-	}
+	}   
 
 }

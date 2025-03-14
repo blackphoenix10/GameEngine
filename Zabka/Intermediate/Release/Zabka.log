@@ -1,1 +1,8 @@
-﻿  Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Release\Zabka.dll
+﻿  DirectX12Renderer.cpp
+     Creating library D:\GameEngine\GameEngine\\Build\Release\Zabka.lib and object D:\GameEngine\GameEngine\\Build\Release\Zabka.exp
+  Generating code
+  0 of 470 functions ( 0.0%) were compiled, the rest were copied from previous compilation.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Zabka.vcxproj -> D:\GameEngine\GameEngine\Build\Release\Zabka.dll
